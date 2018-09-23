@@ -17,6 +17,7 @@
     <link href="css/shop-homepage.css" rel="stylesheet">
 	
 	<link rel="stylesheet" type="text/css" media="screen,print" href="css/global.min.css" />	
+	<link rel="stylesheet" type="text/css" href="css/checkout-font.css">
 	<link rel="stylesheet" type="text/css" media="screen,print" href="css/category.min.css" />
 
 
@@ -68,31 +69,37 @@
 
 
       <!-- Portfolio Item Row -->
-      <div class="row">
+      <div class="row productDetailContainer">
 
         <div class="col-md-4">
           <img class="img-fluid" src="img/Coca-Cola.jpg" alt="Coca-Cola">
         </div>
 
-		<div class="col-md-4">
-		
-		<div class="price-container">
-			<div class="price discount">
-							<span itemprop="price" content="41.90">HK$41.90</span>
-					</div>
-			</div>
-			
-			<div class="add-to-cart-group">
-				<div class="input-number">
-						<div class="btn-minus disabled maximum-tips-inited">-</div>
-						<input class="text input-quantity maximum-tips-element maximum-tips-inited" value="1" name="qty">
-						<div class="btn-plus  maximum-tips-inited">+</div>
+		<div class="col-md-4 rightContainer">
+			<div class="basketBox">
+				<div class="row price-container">
+					<div class="price">
+								<span itemprop="price" content="41.90">HK$41.90</span>
 					</div>
 				</div>
 			
-			<div class="button-group"><a class="button btn-add-to-cart ">ADD TO CART</a></div>
-
-        </div>
+			
+			<div class="row showActionContainer">
+				<div class="cart">
+					<div class="add-to-cart-group">
+						<div class="input-number">
+							<div class="btn-minus disabled maximum-tips-inited">-</div>
+							<input class="text input-quantity maximum-tips-element maximum-tips-inited" value="1" name="qty">
+							<div class="btn-plus  maximum-tips-inited">+</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row button-group">
+				<a class="button btn-add-to-cart" href="product.html">ADD TO CART</a></div>
+			</div>
+		</div>
 		
         <div class="col-md-4">
           <h3 class="my-3">Product Details</h3>
@@ -147,7 +154,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Liu Yujian 2018</p>
       </div>
       <!-- /.container -->
     </footer>

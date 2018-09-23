@@ -13,3 +13,18 @@ body {
     padding-top: 56px;
   }
 }
+
+.row {
+	margin: 20px;
+}
+
+.showActionContainer{
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
+
+div.price{
+	font-weight:normal;
+	font-size:36px;
+	color:#f01b18;
+}

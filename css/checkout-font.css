@@ -1,0 +1,106 @@
+#setpTwoForm, #updateProfileForm {
+    font-family: "Roboto",Verdana,arial,"微軟正黑體","Microsoft JhengHei","新細明體",PMingLiU,sans-serif;
+    font-size: 14px !important;
+}
+
+#setpTwoForm .selfPickAddressWrapper table th, #setpTwoForm .selfPickAddressWrapper table td {
+  font-size: 14px !important;
+}
+
+
+#setpTwoForm .infoTable table tbody th, 
+#setpTwoForm .infoTable table tbody td,
+#updateProfileForm .infoTable table tbody th, 
+#updateProfileForm .infoTable table tbody td,
+#updateProfileForm .infoTable dl dd {
+	font-size: 14px !important;
+}
+
+#setpTwoForm  .infoTable table tbody td input,
+#updateProfileForm .infoTable table tbody td input,
+#updateProfileForm .infoTable dl dd input,
+#updateProfileForm .infoTable dl dd .inputText {
+	font-size: 12px;
+	padding: 2px 5px;
+}
+
+#setpTwoForm .infoTable table tbody td span,
+#updateProfileForm .infoTable table tbody td span,
+#content .infoTable .DateTimeArea td {
+	font-size: 14px;  
+}
+
+#setpTwoForm .infoTable table.DateTimeArea tbody td textarea {
+  font-size: 14px;
+  padding: 5px;
+  width: 98%;
+}
+
+#setpTwoForm td.alignright, 
+#billingAddressTBody2 th.alignright, 
+#updateProfileForm td.alignright,
+#updateProfileForm th.alignright,
+#updateProfileForm dd.alignright {
+    text-align: right !important;
+}
+
+
+#updateProfileForm .infoTable table tbody th {
+	text-align: right
+}
+
+#updateProfileForm .infoTable .selectAddress dd.defaultFlag,
+#addressBooklist .selectAddress dd.defaultFlag {
+	width: 155px;
+	height: 24px;
+	margin: 0 0 0 5px;	
+}
+#updateProfileForm #addressBooklist table tbody td {
+    padding: 5px;
+}
+#updateProfileForm #addressBook #addressDiv0 .infoTable {
+    width: 213px !important
+}
+#updateProfileForm #addressBook #addressDiv0 td input.longerInput {
+    width: 207px;
+}
+#updateProfileForm .infoTable dl dd .inputText {
+	width: 207px;
+    height: 18px;	
+}
+#updateProfileForm #addressBook #addressDiv0 .inputDiv,
+#updateProfileForm #addressBook #addressDiv0 .errorMsgDiv,
+#addressBooklist #addressBook #addressDiv0 .inputDiv,
+#addressBooklist #addressBook #addressDiv0 .errorMsgDiv {
+	display: inline-block;
+    vertical-align: top;	
+}
+#updateProfileForm #addressBook #addressDiv0 .errorMsgDiv,
+#addressBooklist #addressBook #addressDiv0 .errorMsgDiv {
+	width: 190px;
+}
+#updateProfileForm #addressBook #addressDiv0 .errorMsgDiv span,
+#addressBooklist #addressBook #addressDiv0 .errorMsgDiv span {
+	display: inline-block;
+}
+#updateProfileForm #addressBook #addressDiv0 .infoTable {
+    width: 213px !important
+}
+#registerForm .infoTable #addressBooklist .selectAddress dd.defaultFlag {
+    width: 350px !important;
+}
+/*font size issue fix*/
+#content .myShoppingCart.textAlignLeft .infoTable div span {
+    font-size: 12px;
+    line-height: 11px;
+    float: left;
+}
+#content .myShoppingCart.textAlignLeft strong,
+#content .myShoppingCart.textAlignLeft .tnc_content,
+#content .infoTable .checkTop p,
+#content .infoTable .step4OrderConfirmation li,
+#content .infoTable .step4OrderConfirmation li p,
+#content .infoTable .shoppingTable .discount p,
+#content .myShoppingCart.textAlignLeft p.error-msg {
+    font-size: 12px;
+}
